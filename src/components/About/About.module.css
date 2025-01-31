@@ -1,0 +1,41 @@
+.about{
+    background-color: #1ABC9C;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.headAbout{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 50px;
+    border-bottom: 10px;
+   padding-bottom: 10px;
+}
+.Abouticon{
+   margin: auto;
+   text-align: center;
+   position: relative;
+}
+.Abouticon i{
+    font-size: 30px;
+    color: #ffffff;
+   
+}
+.Abouticon::before{
+content: "";
+position: absolute;
+width: 120px;
+height: 4px;
+background-color: #ffffff;
+top: 15px;
+left: 52%;
+}
+.Abouticon::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 4px;
+    background-color: #ffffff;
+    top: 15px;
+    right: 52%;
+    }

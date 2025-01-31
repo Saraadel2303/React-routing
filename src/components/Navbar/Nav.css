@@ -1,0 +1,23 @@
+.navbar{
+    background-color: #2C3E50;
+}
+.navbar a{
+    color: #ffffff;
+}
+.navbar ul li a:hover{
+    color: #1ABC9C;
+}
+.navbar-nav .nav-link.active{
+    color: #ffffff !important;
+    background-color: #1ABC9C;
+    border-radius: 5px;
+}
+.navbar-nav .nav-link.active:hover{
+    color: #1ABC9C !important;
+}
+.navbar-toggler{
+    color: #ffffff !important;
+    background-color: #1ABC9C !important;
+    font-weight: bolder;
+    border-radius: 5px;
+}
